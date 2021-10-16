@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "hi", "hai"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["See you soon", "Talk to you later", "Goodbye!"],
+         "context": [""]
+        },
+        {"tag": "pricelist",
+         "patterns": ["pricelist", "how much is binus", "how much is bina nusantara", "how much does it cost to study at binus", "what is the entry price for binus", "what is the price of binus", "binus pricelist", "bina nusantara pricelist"],
+         "responses": ["prices may differ depending on the student\n---------------------------------------\nSchool of Computer Science: Rp.205.240.000\nSchool of Information Systems: Rp.205.240.000\nSchool of Design: Rp.213.240.000\nBusiness School: Rp.184.720.000 - Rp.205.240.000\nFaculty of Economics & Communication: Rp.184.720.000\nFaculties of Humanities: Rp.177.340.000\nFaculty of Engineering: Rp.185.720.000 - Rp.199.400.000"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "major",
+         "patterns": ["what major that Binus provide", "what major that Binus has", "How many major that Binus provide"],
+         "responses": ["ACCOUNTING & FINANCE: Accounting, Finance\nART & DESIGN: Film, interior design(@Malang), Visual Communication Design - New Media, Interior Design, Visual Communication Design - Animation, Visual Communication Design, Visual Communication Design(@Bandung), Interior Design(@Bandung), Visual Communication Design(@Malang)\nBusiness: Business Creation, Entrepreneurship - Business Creation(@Malang), Management, Business Management, Global Business Marketing, Creativepreneurship(@Bandung), International Business Management\nCommunication: Communication - Marketing Communication, Communication - Mass Communication, Communication(@Malang), Public Relation(@Malang)\nComputing: Business Analytics, Computer Science(@Bandung), Data Science, Information Systems Accounting And Auditing, Business Information Technology,Computer Science (@Malang), Game Application And Technology, Mobile Application and Technology, Computer Science, Cyber Security, Information Systems\nEngineering: Architecture, Food Technology, Civil Engineering, Industrial Engineering, Computer Engineering\nHospitality And Tourism: Business HoteManagement(Diploma Program), Hotel Management(Diploma Program), Tourism\nHumanities: Chinese Literature, Japanese Literature, Psychology, English Literature, Law - Business Law, International Relations, Primary Teacher Education"],
+         "context": [""]
+        },
+        {"tag": "organization",
+         "patterns": ["how many organization in binus", "how many organization in bina nusantara", "organization", "organization in binus", "what organizations are there in binus"],
+         "responses": ["Student Department Association/Himpunan Mahasiswa Jurusan (HMJ)\nThere are 23 HMJ:\nStudent Association of Informatics Engineering/Himpunan Mahasiswa Teknik Informatika (HIMTI)\nStudent Association of Computer Engineering/Himpunan Mahasiswa Teknik Komputer (HIMTEK)\nStudent Association of Informatics management/Himpunan Mahasiswa Sistem Informasi (HIMSISFO)\nStudent Association of Computerized Accounting/Himpunan Mahasiswa Komputerisasi Akuntansi (HIMKA)\nStudent Association of Mathematics/Himpunan Mahasiswa Matematika (HIMMAT)\nStudent Association of Statistics/Himpunan Mahasiswa Statistik (HIMSTAT)\nStudent Association of Industrial Engineering/Himpunan Mahasiswa Teknik Industri (HIMTRI)\nStudent Association of Civil Engineering/Himpunan Mahasiswa Teknik Sipil (HIMTES)\nStudent Association of Architecture/Himpunan Mahasiswa Arsitektur (HIMARS)\nStudent Association of Visual Communication Design/Himpunan Mahasiswa Design Komunikasi Visual (HIMDKV)\nStudent Association of Economics Management/Himpunan Mahasiswa Manajemen Ekonomi (HIMME)\nStudent Association of Accounting/Himpunan Mahasiswa Akuntansi (HIMA)\nStudent Association of English/Himpunan Mahasiswa Sastra Inggris (HIMSI)\nStudent Association of Japanese/Himpunan Mahasiswa Sastra Jepang (HIMJA)\nStudent Association of Mandarin/Himpunan Mahasiswa Sastra Mandarin (HIMANDA)\nStudent Association of Communication/Himpunan Mahasiswa Communication (HIMCOMM)\nStudent Association of Psychology/Himpunan Mahasiswa Psikologi (HIMPSIKO)\nStudent Association of Hotel Management (HOME)\nStudent Association of Interior Design (HIMDI)\nStudent Association of Business Law (HIMSLAW)\nStudent Association of International Relation (HIMHI)\nStudent Association of Food Technology (HIMFOODTECH)\nStudent Association of Primary Teacher Education (HIMPGSD)"],
+         "context": [""]
+        },
+        {"tag": "student Activity Unit",
+         "patterns": ["how many sau in binus", "how many sau in bina nusantara", "how many ukm in binus", "how many ukm in bina nusantara", "UKM", "Student Activity Unit", "SAU", "What UKMs are in Binus?", "What SAUs are in Binus?", "What student activity units are in Binus?"],
+         "responses": ["Student Activity Unit (UKM)\nThere are 41 UKM that consists of:\n12 UKM of Reasoning:\nBina Nusantara Computer Club (BNCC)\nBina Nusantara English Club (BNEC)\nBina Nusantara Mandarin Club (BNMC)\nNippon Club (NC)\nISACA Student Group (ISG)\nBINUS Student Learning Community (BSLC)\nBINUS Game Development Club (BGDC)\nCyber Security Community (CSC)\nB-Preneur\nInternational Marketing Community of Binus (IMCB)\nBina Nusantara Finance Club (BNFC)\nBINUS Business International Club (BIC)\n\n9 UKM of Arts and Communication Media:\nBand\nPaduan Suara Mahasiswa Bina Nusantara (PARAMABIRA)\nSeni Teater Mahasiswa Bina Nusantara (ST Manis)\nSeni Tari Mahasiswa Bina Nusantara (STAMANARA)\nBersama Dalam Musik (BDM)\nKlub Seni Fotografi Bina Nusantara (KLIFONARA)\nBinus TV Club\nBVoice Radio\nKine Club\n\n11 UKM of Sports and Martial Arts:\nAikido\nBadminton\nBasketball\nBina Nusantara Swimming Club (BASIC)\nFootball\nKarate\nMahasiswa Bina Nusantara Pencinta Alam (SWARANAPALA)\nMerpati Putih (MP)\nTaekwondo\nWushu\nVolleyball\n\n9 UKM of Religon and Society:\nKeluarga Besar Mahasiswa Khonghucu (KBMK)\nKeluarga Mahasiswa Buddhis Dhammavaddhana (KMBD)\nKeluarga Mahasiswa Hindu (KMH)\nKeluarga Mahasiswa Katholik (KMK)\nMajelis Ta’lim (MT)\nPersekutuan Oikumene (PO)\nAIESEC\nBinus Square Student Committee (BSSC)\nTeach for Indonesia Student Committee (TFISC)"],
+         "context": [""]
+        },
+        {"tag": "grade",
+        "patterns": [ "What Are The Grades for Binus University", "What Are The Grades for Binus University", "grades in binus"],
+        "responses": ["A : 90-100\nA-: 85-89\nB+: 80-84\nB: 75-79\nB-: 70-74\nC: 65-69\nD: 50-64\nE: 0-49\nF: 0"],
+        "context": [""]
+        },
+        {"tag": "function",
+        "patterns": [ "what can you do", "what do you do", "what is this", "what is your function"],
+        "responses": ["This bot can ask any system at BINUS University, such as:\n1. Check the entrance fee for majors\n2. Types of majors in BINUS\n3. what organizations are in BINUS\n4. Student Activity Unit (SAU) at BINUS\n5.grading grade at BINUS\n6. what protocols are there in BINUS\n7. online registration"],
+        "context": [""]
+        },
+        {"tag": "protocol",
+        "patterns": [ "what protocol does binus use", "protocol in binus" , "what protocol does binus use", "protocol","does binus apply the protocol", "BINUS health protocol", "is binus safe from covid"],
+        "responses": ["BINUS provides health protocols and is safe from COVID-19 due to tightened procedures, for further details, please open this link:\nhttps://www.binus.edu/2020/08/06/protokol-kesehatan-dan-keamanan-binus/"],
+        "context": [""]
+        }
+   ]
+}
